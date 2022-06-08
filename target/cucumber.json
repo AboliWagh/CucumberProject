@@ -1,0 +1,689 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1582615200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-08T09:15:25.614Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2459948700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUpMethod()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the successful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-lofin-page-of-the-application;validate-the-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 4220985800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6027547700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click in the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_in_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332576300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.i_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154373200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339586000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1773100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F-123"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 843507700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-08T09:15:40.776Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1536849400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUpMethod()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate the successful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-lofin-page-of-the-application;validate-the-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 114839400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6252959800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_in_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125261800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter username \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111076700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter password \"Pqr@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pqr@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122717700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 945800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F-123"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1466603200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-08T09:15:49.891Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1486033800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUpMethod()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Validate the successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-lofin-page-of-the-application;validate-the-successful-login-using-multiple-test-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4181480800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5792958300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click in the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_in_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129547700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter username \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83298700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter password \"Pqr@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pqr@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307680300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should be landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F-123"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1260730900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-08T09:16:03.349Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1411000800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUpMethod()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Validate the successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-lofin-page-of-the-application;validate-the-successful-login-using-multiple-test-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 172200400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5729014200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click in the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_in_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138598100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter username \"Mad@abc.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mad@abc.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101945500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter password \"mvt@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mvt@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135104000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 391300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should be landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F-123"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 713004200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-08T09:16:12.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1288227500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUpMethod()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Validate the unsuccessful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-lofin-page-of-the-application;validate-the-unsuccessful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 142562700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5654034000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click in the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_in_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267712500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter username \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108659300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter password \"Pqrrsd@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pqrrsd@123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3616113800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28731800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.i_should_get_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F-123"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Lofin page of the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-lofin-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/fearures/Login.feature",
+    "tags": [
+      {
+        "name": "@F-123",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
